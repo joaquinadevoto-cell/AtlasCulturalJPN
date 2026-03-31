@@ -8,11 +8,12 @@
     <!-- ENCABEZADO -->
     <header>
         <div id="logo">
+            <img src="https://japonismo.com/wp-content/uploads/2019/03/consejos-primavera-japon-japonismo.jpg" alt="logo japón">
             <h1>Jap-n-y-cultura</h1>
         </div>
         <!-- NAVEGACIÓN -->
         <nav>
-            <ul>
+            <ul> 
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Cultura</a></li>
                 <li><a href="#">Gastronomía</a></li>
