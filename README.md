@@ -21,16 +21,16 @@
             </ul>
         </nav>
     </header>
-         <div id="logo">
-            <img src="https://www.advantour.com/img/japan/images/index.jpg" alt="logo japón">
+         <div id="imagen encabezado montaña">
+            <img src="https://www.advantour.com/img/japan/images/index.jpg" alt="Imagen Montaña y Templo">
     <!-- CONTENIDO PRINCIPAL -->
     <main>
         <!-- SECCIÓN -->
         <section>
             <h2>Tradición y Modernidad</h2>
             <article>
-                  <div id="logo">
-            <img src="https://sal-pimienta.com/wp-content/uploads/2024/06/Pagoda-en-el-Templo-Senso-ji-1.jpg" alt="logo japón">
+                  <div id="imagen templo">
+            <img src="https://sal-pimienta.com/wp-content/uploads/2024/06/Pagoda-en-el-Templo-Senso-ji-1.jpg" alt="Imagen del Templo de Sensoji">
                 <p>
                     Japón es un país insular de Asia oriental donde conviven siglos de tradición 
                     con una de las sociedades más innovadoras del mundo.
@@ -67,8 +67,8 @@
         </ul>
     </aside>
     <!-- PIE DE PÁGINA -->
-              <div id="logo">
-            <img src="https://turismojapon.info/wp-content/uploads/2024/01/Flores-de-Cerezo-en-Japon.jpg" alt="logo japón">
+              <div id="imagen cerezo">
+            <img src="https://turismojapon.info/wp-content/uploads/2024/01/Flores-de-Cerezo-en-Japon.jpg" alt="Flores de Cerezo con Templo">
     <footer>
         <h3>Contacto</h3>
         <p>Email: info@japon.com</p>
