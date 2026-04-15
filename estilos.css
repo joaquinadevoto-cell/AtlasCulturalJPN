@@ -22,3 +22,8 @@ h1 {
  .destacado{ 
     font-weight: bold;
  }
+
+nav ul{
+    list-style: none;
+ }
+ 
