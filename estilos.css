@@ -7,36 +7,31 @@
     background-color: white;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
+
 h1 {
-    color; rgb(55, 13, 27); 
-    background-color:antiquewhite;
- }
+    color: rgb(55, 13, 27); 
+    background-color: antiquewhite;
+}
 
- a{
-    color; rgb(223, 27,25)
+a {
+    color: rgb(223, 27, 25);
     text-decoration: none;
- }
+}
 
- /* agrupamiento de selectores */
-
- h1, h2, h3, h4 {
+/* agrupamiento de selectores */
+h1, h2, h3, h4 {
     text-decoration: underline;
- }
+}
 
- /*selector de id*/
-
-
-
- /* selector de clase */
- .destacado{ 
+/* selector de clase */
+.destacado { 
     font-weight: bold;
- }
+}
 
-nav ul{
+nav ul {
     list-style: none;
- }
+}
 
-img{ 
+img { 
     border-radius: 20px;
 }
- 
