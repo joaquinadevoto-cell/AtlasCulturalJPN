@@ -2,6 +2,10 @@
 
 
 
+
+
+
+
 /* Borde del logo*/
 #logo {
     border: 5px solid blue;
@@ -40,3 +44,5 @@ nav ul {
 img { 
     border-radius: 20px;
 }
+
+>>>>>>> b88f9b61d9d172c57848a55f440a5a787b60ae8c
