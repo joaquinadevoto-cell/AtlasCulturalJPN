@@ -7,6 +7,11 @@
     border: 5px solid blue;
 }
 
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+
 h1 {
     color: rgb(55, 13, 27); 
     background-color: antiquewhite;
