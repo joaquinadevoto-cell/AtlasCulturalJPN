@@ -95,10 +95,9 @@ img {
 
 /*fondo principal*/
 body {
-    background-image: url("img/fondo.jpg");
-    background-image: url("img/fondo.jpg");
-    background-size: cover;        
-    background-position: center;   
-    background-repeat: no-repeat; 
+     background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     min-height: 100vh;
 }
