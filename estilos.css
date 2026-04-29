@@ -79,3 +79,7 @@ body {
     color: red;
     margin-top: -20px;
 }
+h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
