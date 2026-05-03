@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 
 * {
   margin: 0;
@@ -7,39 +7,35 @@
 }
 
 body {
-  background-color: #f1eee8;
+  background: #f1eee8;
   font-family: "Roboto", sans-serif;
-  color: #3a0b19;
+  color: #3b0b19;
 }
 
-/* HEADER */
-
 .header {
-  height: 72px;
-  background-color: #ded9c7;
+  height: 76px;
+  background: #ded8c4;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 28px;
+  padding: 20px 28px;
 }
 
 .logo {
-  width: 105px;
+  width: 112px;
 }
 
 .iconos {
   display: flex;
   gap: 22px;
   color: #ed1c24;
-  font-size: 24px;
+  font-size: 25px;
   font-weight: 900;
 }
 
-/* HERO */
-
 .hero {
   position: relative;
-  height: 310px;
+  height: 315px;
   overflow: hidden;
 }
 
@@ -51,29 +47,25 @@ body {
 
 .hero-texto {
   position: absolute;
-  left: 28px;
-  bottom: 25px;
+  left: 30px;
+  bottom: 24px;
 }
 
 .hero-texto p {
   font-size: 22px;
   font-weight: 900;
-  color: #3a0b19;
 }
 
 .hero-texto h1 {
-  font-size: 72px;
-  line-height: 0.85;
   color: #ed1c24;
+  font-size: 76px;
+  line-height: .85;
   font-weight: 900;
   letter-spacing: -4px;
 }
 
-/* INTRO */
-
 .intro {
-  padding: 55px 38px 35px;
-  position: relative;
+  padding: 54px 36px 38px;
 }
 
 .intro p {
@@ -92,11 +84,11 @@ body {
 .galeria img {
   width: 100%;
   object-fit: cover;
-  border-radius: 18px;
+  border-radius: 20px;
 }
 
 .img-alta {
-  height: 340px;
+  height: 345px;
 }
 
 .galeria-derecha {
@@ -105,34 +97,32 @@ body {
 }
 
 .galeria-derecha img {
-  height: 160px;
+  height: 163px;
 }
 
-/* DESTINOS */
-
 .destinos {
-  background-color: #52484c;
+  background: #51484b;
   color: #f1eee8;
-  padding: 55px 28px;
-  overflow-x: hidden;
+  padding: 56px 28px 62px;
 }
 
 .destinos h2 {
-  font-size: 31px;
-  line-height: 1;
-  margin-bottom: 25px;
+  font-size: 32px;
+  line-height: .95;
   font-weight: 900;
+  margin-bottom: 25px;
 }
 
 .destinos > p {
   font-size: 14px;
-  line-height: 1.25;
-  margin-bottom: 35px;
+  line-height: 1.3;
+  margin-bottom: 36px;
 }
 
 .cards {
   display: flex;
   gap: 28px;
+  overflow-x: auto;
 }
 
 .cards article {
@@ -141,25 +131,23 @@ body {
 
 .cards img {
   width: 260px;
-  height: 290px;
+  height: 292px;
   object-fit: cover;
-  border-radius: 28px;
+  border-radius: 30px;
 }
 
 .cards h3 {
-  margin-top: 18px;
   font-size: 18px;
-  line-height: 1;
+  margin-top: 18px;
+  margin-bottom: 4px;
 }
 
 .cards p {
   font-size: 13px;
 }
 
-/* FRASE */
-
 .frase {
-  padding: 60px 32px 30px;
+  padding: 60px 32px 35px;
   text-align: center;
 }
 
@@ -169,8 +157,6 @@ body {
   line-height: 1.5;
 }
 
-/* CULTURA */
-
 .cultura {
   padding: 0 28px 55px;
 }
@@ -178,43 +164,40 @@ body {
 .cultura h2 {
   color: #ed1c24;
   font-size: 30px;
-  margin-bottom: 25px;
   font-weight: 900;
+  margin-bottom: 24px;
 }
 
 .komorebi {
-  background-color: #d8c5a4;
+  background: #d8c4a3;
   text-align: center;
-  padding: 45px 25px;
-  border-radius: 5px;
+  padding: 46px 24px;
 }
 
 .komorebi h3 {
   color: #ed1c24;
   font-size: 28px;
-  margin-bottom: 35px;
   font-weight: 900;
+  margin-bottom: 34px;
 }
 
 .komorebi p {
+  font-size: 15px;
   font-weight: 900;
   font-style: italic;
-  font-size: 15px;
   line-height: 1.3;
 }
-
-/* NEWSLETTER */
 
 .newsletter {
   background-image: url("img/templo.jpg");
   background-size: cover;
   background-position: center;
-  min-height: 240px;
+  min-height: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: #fff;
+  color: white;
   position: relative;
 }
 
@@ -222,20 +205,20 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.25);
+  background: rgba(0,0,0,.28);
 }
 
 .newsletter-contenido {
   position: relative;
   z-index: 2;
-  padding: 45px 25px;
   width: 100%;
+  padding: 45px 24px;
 }
 
 .newsletter h2 {
-  font-size: 28px;
-  margin-bottom: 25px;
+  font-size: 29px;
   font-weight: 900;
+  margin-bottom: 24px;
 }
 
 .newsletter form {
@@ -244,20 +227,20 @@ body {
   gap: 10px;
 }
 
-.newsletter input,
+.newsletter input {
+  width: 55%;
+  height: 42px;
+  border: none;
+  border-radius: 6px;
+  padding: 0 14px;
+}
+
 .newsletter button {
   height: 42px;
   border: none;
   border-radius: 6px;
   padding: 0 18px;
-}
-
-.newsletter input {
-  width: 55%;
-}
-
-.newsletter button {
-  background-color: #3a0b19;
+  background: #3b0b19;
   color: white;
   font-weight: 700;
 }
@@ -267,39 +250,35 @@ body {
   font-size: 13px;
 }
 
-/* CÍRCULO */
-
 .circulo {
   width: 78px;
   height: 78px;
-  background-color: #ed2c2f;
+  background: #ed1c24;
   border-radius: 50%;
   margin: -39px auto 0;
   position: relative;
   z-index: 5;
 }
 
-/* FOOTER */
-
 footer {
-  background-color: #3a0b19;
+  background: #3b0b19;
   color: white;
   text-align: center;
   padding: 55px 20px 45px;
 }
 
 footer h2 {
-  font-size: 42px;
-  margin-bottom: 35px;
+  font-size: 43px;
   font-weight: 900;
+  margin-bottom: 35px;
 }
 
 .redes {
   display: flex;
   justify-content: center;
   gap: 32px;
-  font-size: 34px;
-  margin-bottom: 35px;
+  font-size: 33px;
+  margin-bottom: 34px;
 }
 
 footer p {
